@@ -1,0 +1,673 @@
+{
+  "kabinetai": [
+    { "id": "maisto-pamoka", "kabinetas": 123 },
+    { "id": 1, "kabinetas": 101 },
+    { "id": 2, "kabinetas": 102 },
+    { "id": 3, "kabinetas": 103 },
+    { "id": 4, "kabinetas": 104 },
+    { "id": 5, "kabinetas": "105 / 106"  },
+    { "id": 6, "kabinetas": 107 },
+    { "id": 7, "kabinetas": 108 },
+    { "id": 8, "kabinetas": 109 },
+    { "id": 9, "kabinetas": 110 },
+    { "id": 10, "kabinetas": 111 },
+    { "id": 11, "kabinetas": 112 },
+    { "id": 12, "kabinetas": "Valgykla" },
+    { "id": 13, "kabinetas": "Sporto salė" },
+    { "id": "14", "kabinetas": "115" },
+    { "id": "14a", "kabinetas": "115a" },
+    { "id": "14b", "kabinetas": "115b" },
+    { "id": 15, "kabinetas": 116},
+    { "id": 16, "kabinetas": 117 },
+    { "id": 17, "kabinetas": 118 },
+    { "id": 18, "kabinetas": 119 },
+    { "id": 19, "kabinetas": 120 },
+    { "id": 20, "kabinetas": 121 },
+    { "id": 21, "kabinetas": 122 },
+    { "id": 22, "kabinetas": 123 },
+    { "id": 23, "kabinetas": 124 },
+    { "id": 24, "kabinetas": 125 },
+    { "id": 25, "kabinetas": 126 },
+    { "id": 26, "kabinetas": 127 },
+    { "id": 27, "kabinetas": 128 },
+    { "id": 28, "kabinetas": 129 },
+    { "id": 29, "kabinetas": 130 },
+    { "id": 30, "kabinetas": 131 },
+    { "id": 31, "kabinetas": 201 },
+    { "id": 32, "kabinetas": 202 },
+    { "id": 33, "kabinetas": 203 },
+    { "id": 34, "kabinetas": 204 },
+    { "id": 35, "kabinetas": 205 },
+    { "id": 36, "kabinetas": 206 },
+    { "id": 37, "kabinetas": 207 },
+    { "id": 38, "kabinetas": 208 },
+    { "id": 39, "kabinetas": 209 },
+    { "id": 40, "kabinetas": "211/210" },
+    { "id": 41, "kabinetas": "Aktų salė" },
+    { "id": 42, "kabinetas": 214 },
+    { "id": 43, "kabinetas": 215 },
+    { "id": 44, "kabinetas": 216 },
+    { "id": 45, "kabinetas": 217 },
+    { "id": 46, "kabinetas": 218 },
+    { "id": 47, "kabinetas": 219 },
+    { "id": 48, "kabinetas": 220 },
+    { "id": 49, "kabinetas": 221 },
+    { "id": 50, "kabinetas": 222 },
+    { "id": 51, "kabinetas": 223 },
+    { "id": 52, "kabinetas": 224 },
+    { "id": 53, "kabinetas": 225 },
+    { "id": 54, "kabinetas": 226 },
+    { "id": 55, "kabinetas": 227 },
+    { "id": 56, "kabinetas": 228 },
+    { "id": 57, "kabinetas": 301 },
+    { "id": 58, "kabinetas": 302 },
+    { "id": 59, "kabinetas": 303 },
+    { "id": 60, "kabinetas": 304 },
+    { "id": 61, "kabinetas": 305 },
+    { "id": 62, "kabinetas": 306 },
+    { "id": 63, "kabinetas": 307 },
+    { "id": 64, "kabinetas": 308 },
+    { "id": 65, "kabinetas": 309 },
+    { "id": 66, "kabinetas": 310 },
+    { "id": 67, "kabinetas": 311 },
+    { "id": 68, "kabinetas": 312 },
+    { "id": 69, "kabinetas": 313 },
+    { "id": 70, "kabinetas": 314 },
+    { "id": 71, "kabinetas": 315 },
+    { "id": 72, "kabinetas": 316 },
+    { "id": 73, "kabinetas": 317 },
+    { "id": 74, "kabinetas": 118 },
+    { "id": 75, "kabinetas": 319 },
+    { "id": 76, "kabinetas": 320 },
+    { "id": 77, "kabinetas": 321 },
+    { "id": 78, "kabinetas": 322 },
+    { "id": 79, "kabinetas": 323 },
+    { "id": 80, "kabinetas": 324 }
+  ],
+  "info": [
+    {
+      "id": "1",
+      "pareigos": "Buhalterija; archyvas; viešųjų pirkimų specialistas",
+      "vardas_pavarde": "Gimnazijos administracija",
+      "del_ko_kreiptis": []
+    },
+    {
+      "id": "budetojas",
+      "pareigos": "",
+      "vardas_pavarde": "Budetojas",
+      "del_ko_kreiptis": []
+    },
+    {
+      "id": "2",
+      "pareigos": "Anglų kalbos kabinetas",
+      "vardas_pavarde": "R. Kairelytė-Milaknienė",
+      "del_ko_kreiptis": []
+    },
+    {
+      "id": "3",
+      "pareigos": "Anglų kalbos kabinetas",
+      "vardas_pavarde": "D. Macijauskienė",
+      "del_ko_kreiptis": []
+    },
+    {
+      "id": "4",
+      "pareigos": "Anglų kalbos kabinetas",
+      "vardas_pavarde": "I. Laužadienė",
+      "del_ko_kreiptis": []
+    },
+    {
+      "id": "5",
+      "pareigos": "Metodinis, direktoriaus pavaduotoja ugdymui",
+      "vardas_pavarde": "Audronė Stočkuvienė",
+      "del_ko_kreiptis": ["tai žmogus, kuris koordinuoja visą gimnazijoje teikiamą pagalbą mokiniui, kad kiekvienas jaustųsi saugus, išgirstas, suprastas ir galėtų sėkmingai mokytis. Ji bendradarbiauja su mokytojais, psichologu, socialiniu pedagogu, specialiuoju pedagogu, karjeros specialistu ir visuomenės sveikatos specialistu, kad tau būtų suteikta reikiama pagalba.",
+      "Kreipkis, jeigu:",
+      "• Nežinai, į ką kreiptis pagalbos dėl mokymosi ar emocinių sunkumų, patyčių.",
+      "• Jauti, kad tau reikalinga kelių specialistų pagalba vienu metu.",
+      "• Jei turi klausimų dėl pavėžėjimo į gimnaziją.",
+      "• Jei turi klausimų dėl Mokinio pažymėjimo, nemokamo maitinimo.",
+      "• Gimnazijoje nėra užtikrinamos tavo teisės, jautiesi nesaugiai ar nepastebėtas.",
+      "• Tavo problema nesprendžiama ilgą laiką ir nori, kad kas nors ją imtųsi spręsti rimčiau.",
+      "• Turi individualių ugdymosi poreikių (pvz., specialusis ugdymo planas, mokymosi pritaikymai), bet nežinai, kaip tai veikia.",
+      "• Nori pasitarti dėl mokymosi sąlygų, ugdymo plano, mokymosi namuose ar ugdymosi kitokiu būdu.",
+      "• Nori padėti kitam mokiniui, kuris, tavo manymu, patiria sunkumų, bet pats nedrįsta kreiptis."]
+    },
+    {
+      "id": "6",
+      "pareigos": "Direktoriaus pavaduotoja ugdymui",
+      "vardas_pavarde": "Jolanta Juodinytė",
+      "del_ko_kreiptis": ["planuoja ir prižiūri gimnazijos ugdymo (mokymosi) procesą, kad viskas vyktų sklandžiai, o mokiniai gautų tinkamą išsilavinimą. Ji rūpinasi, kad I-II klasių mokinių vertinimai, ugdymo planai ir mokymosi sąlygos būtų pritaikytos pagal mokinių poreikius, konsultuoja mokinius VBE ir PUPP klausimais.",
+      "Kreipkis į pavaduotoją ugdymui, jeigu:",
+      "• Jei esi I-II klasių mokinys ir tavo tvarkaraštyje yra netikslumų ar klaidų (pvz., pamoka „dingo“).",
+      "• Turi klausimų apie pamokų lankymą, atsiskaitymus, vertinimą.",
+      "• Dėl svarbių priežasčių reikia keisti klasę, dalyką, mokymosi formą.",
+      "• Nori daugiau sužinoti apie brandos egzaminus arba pagrindinio ugdymo pasiekimų patikrinimą.",
+      "• Tavo mokymasis vyksta namuose, nuotoliniu ar individualiu būdu ir kyla neaiškumų.",
+      "• Manei, kad buvai neteisingai įvertintas, bet mokytojas situacijos nepaaiškino."]
+    },
+    {
+      "id": "7",
+      "pareigos": "Šilumos punktas",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": []
+    },
+    {
+      "id": "8",
+      "pareigos": "Budėtojų patalpa",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "9",
+      "pareigos": "Elektros skydinė",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "10",
+      "pareigos": "Sveikatos kabinetas",
+      "vardas_pavarde": "Džiuljeta Girčienė",
+      "del_ko_kreiptis": ["Sveikatos specialistas rūpinasi tavo fizine ir emocine sveikata gimnazijoje. Jis padeda suprasti, kaip gyventi sveikai, kaip saugoti save ir gerai jaustis kiekvieną dieną.",
+      "• Blogai jautiesi gimnazijoje – skauda galvą, pilvą, pykina ar jautiesi silpnai.",
+      "• Nutiko nedidelė trauma (įsipjovimas, sumušimas, apsvaigimas ir pan.).",
+      "• Nori pasikalbėti apie mitybą, miegą, fizinį aktyvumą, higieną.",
+      "• Turi klausimų apie sveikatą, augimą, brendimą ar emocinę savijautą.",
+      "• Reikia patarimo, kaip saugiai elgtis (pvz., vasarą, sportuojant, naudojantis ekranais).",
+      "• Domiesi žalingų įpročių prevencija – nori sužinoti daugiau apie tai, kodėl verta jų vengti.",
+      "• Pastebi, kad kitam mokiniui bloga, ir nežinai, kaip jam padėti."]
+    },
+    {
+      "id": "11",
+      "pareigos": "Kūno kultūros mokytojų kabinetas",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "12",
+      "pareigos": "Valgykla",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "13",
+      "pareigos": "Sporto salė",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "14",
+      "pareigos": "Persirengimo kambariai",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "14a",
+      "pareigos": "Merginų",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "14b",
+      "pareigos": "Vaikinų",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "15",
+      "pareigos": "Raštinė",
+      "vardas_pavarde": "I. Benevičienė",
+      "del_ko_kreiptis": ["Raštvedė – gimnazijos darbuotoja, kuri tvarko oficialius dokumentus ir padeda mokiniams, tėvams bei darbuutojams gauti arba pateikti reikalingus raštus, pažymas ir prašymus. Ji dirba raštinėje, kur galima kreiptis dėl oficialios informacijos.",
+      "• Reikia pažymos mokiniui (pvz., kad lankai gimnaziją – socialinei paramai, sveikatos patikrai, sporto būreliui, kelionėms ir pan.).",
+      "• Nori pateikti prašymą arba tavo tėvai nori pateikti oficialų dokumentą gimnazijai.",
+      "• Reikia informacijos apie gimnazijos tvarką, raštiškus dokumentus ar jų pateikimą.",
+      "• Esi naujas mokinys ir nori sužinoti, kaip pateikti arba atsiimti dokumentus.",
+      "• Baigei arba palikai gimnaziją ir reikia mokymosi pažymų ar kitų dokumentų.",
+      "• Nežinai, kur kreiptis dėl oficialios informacijos – raštvedė nukreips tinkama linkme."]
+    },
+    {
+      "id": "16",
+      "pareigos": "Direktorė",
+      "vardas_pavarde": "Rasa Pranckūnienė",
+      "del_ko_kreiptis": ["Gimnazijos direktorė – tai žmogus, kuris vadovauja gimnazijai, užtikrina sklandų mokymosi procesą, tvarką ir saugumą. Ji priima svarbius sprendimus ir bendrauja su mokytojais, tėvais bei mokiniais.",
+      "• Išbandei kitus pagalbos kelius (pvz., klasės vadovą ar pavaduotoją), bet problema liko neišspręsta.",
+      "• Patyrei rimtą neteisybę, patyčias ar jauti pavojų ir reikia skubios pagalbos.",
+      "• Tavo teisės gimnazijoje buvo pažeistos ir reikia pagalbos jas atkurti.",
+      "• Nori pasiūlyti svarbią idėją, iniciatyvą ar renginį, kuris būtų naudingas visai gimnazijai.",
+      "• Turi pastebėjimų dėl gimnazijos aplinkos, taisyklių ar valdymo ir nori būti išgirstas.",
+      "• Esi pakviestas į pokalbį dėl padėkos, apdovanojimo ar paskatinimo.",
+      "• Reikia oficialaus direktoriaus sutikimo ar sprendimo (pvz., dėl laikinosios grupės keitimo, pažymų ar leidimų)."]
+    },
+    {
+      "id": "17",
+      "pareigos": "Personalo specialistė",
+      "vardas_pavarde": "Janina Bunevičienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "18",
+      "pareigos": "Direktoriaus pavaduotojas ūkio reikalams",
+      "vardas_pavarde": "Gytis Pumputis",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "19",
+      "pareigos": "Informatikos kabinetas",
+      "vardas_pavarde": "S. Ramanauskas",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "20",
+      "pareigos": "Matematikos kabinetas",
+      "vardas_pavarde": "J. Bernienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "21",
+      "pareigos": "Matematikos kabinetas",
+      "vardas_pavarde": "J. Makutėnienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "22",
+      "pareigos": "Technologijų kabinetas",
+      "vardas_pavarde": "L. Rimšienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "23",
+      "pareigos": "Techninė patalpa",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "24",
+      "pareigos": "Sandėliavimo patalpa",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "25",
+      "pareigos": "Techninė patalpa",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "26",
+      "pareigos": "Techninė patalpa",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "27",
+      "pareigos": "IT specialistas",
+      "vardas_pavarde": "G. Kublickas",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "28",
+      "pareigos": "Techninio personalo patalpa",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "29",
+      "pareigos": "Technologijų laboratorija",
+      "vardas_pavarde": "V. Mauricas",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "30",
+      "pareigos": "Technologijų laboratorija",
+      "vardas_pavarde": "V. Mauricas",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "31",
+      "pareigos": "Anglų k. kabinetas",
+      "vardas_pavarde": "A. Milevičienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "32",
+      "pareigos": "Lietuvių k. kabinetas",
+      "vardas_pavarde": "R. Stalionienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "33",
+      "pareigos": "Lietuvių k. kabinetas",
+      "vardas_pavarde": "I. Kazulėnienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "34",
+      "pareigos": "Lietuvių k. kabinetas",
+      "vardas_pavarde": "I. Žiaugrienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "35",
+      "pareigos": "Spec. pedagogai",
+      "vardas_pavarde": "V. Žilėnienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "36",
+      "pareigos": "Spec. pedagogai",
+      "vardas_pavarde": "R. Mikalkevičienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "37",
+      "pareigos": "Suaugusiųjų skyriaus vedėja",
+      "vardas_pavarde": "R. Mikalkevičienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "38",
+      "pareigos": "Dailės studija",
+      "vardas_pavarde": "E. Kurlavičienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "39",
+      "pareigos": "Muzikos kabinetas",
+      "vardas_pavarde": "E. Kundrotas",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "40",
+      "pareigos": "Klubas Spektro 3",
+      "vardas_pavarde": "E. Kundrotas",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "41",
+      "pareigos": "Aktų salė",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "42",
+      "pareigos": "Anglų k. kabinetas",
+      "vardas_pavarde": "J. Stalemekaitė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "43",
+      "pareigos": "Mokytojų kambarys",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "44",
+      "pareigos": "Anglų k. kabinetas",
+      "vardas_pavarde": "Sandra Liugienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "45",
+      "pareigos": "Mokytojų kambarys",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "46",
+      "pareigos": "Direktoriaus pavaduotoja ugdymui",
+      "vardas_pavarde": "Rita Mauricienė",
+      "del_ko_kreiptis": ["Pavaduotoja ugdymui planuoja pagrindinio ir vidurinio ugdymo programų įgyvendinimą, prižiūri mokymosi procesą, sudaro ir koreguoja tvarkaraščius, padeda III–IV klasių mokiniams sudaryti individualius ugdymo planus, prižiūri ugdymo sąlygas bei analizuoja mokinių pažangą.",
+      "Tavo dalykų pasirinkimai (pvz., pasirenkamieji dalykai, lietuvių kalbos, matematikos kursai, moduliai) nesutampa su galimybėmis ar ateities planais.",
+      "Esi III–IV klasės mokinys ir tavo tvarkaraštyje yra netikslumų ar klaidų (neįtrauktas pasirinktas dalykas, atsirado nepasirinktas, dubliuojasi pamokos).",
+      "Pageidauji būti atleistas nuo dalies pamokų lankymo dėl svarbių priežasčių (pvz., pasirengimo olimpiadai, neakivaizdinių mokyklų mokymų, mainų programos).",
+      "Turi klausimų apie atsiskaitymus, vertinimą ar pamokų lankymą.",
+      "Nori pasiaiškinti dėl įskaitų, kontrolinių ar mokymo programų.",
+      "Dėl svarbių priežasčių pageidauji keisti klasę, mokymosi formą, dalyką ar laikinąją grupę.",
+      "Manai, kad buvai neteisingai įvertintas, o mokytojas situacijos tinkamai nepaaiškino.",
+      "Nori prisidėti prie gimnazijos veiklos, projektų ar iniciatyvų, pasiūlyti idėją ugdymo tobulinimui."]
+    },
+    {
+      "id": "47",
+      "pareigos": "Informatikos kabinetas",
+      "vardas_pavarde": "V. Dagytė, J. Matiukaitė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "48",
+      "pareigos": "Matematikos kabinetas",
+      "vardas_pavarde": "L. Karkaitė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "49",
+      "pareigos": "Matematikos kabinetas",
+      "vardas_pavarde": "R. Šarkauskienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "50",
+      "pareigos": "Matematikos kabinetas",
+      "vardas_pavarde": "S. Letukienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "51",
+      "pareigos": "Knygų saugykla",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "52",
+      "pareigos": "Skaitykla",
+      "vardas_pavarde": "R. Kiselytė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "53",
+      "pareigos": "Fizikos kabinetas",
+      "vardas_pavarde": "V. Stalionienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "54",
+      "pareigos": "Fizikos paruošiamasis ",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "55",
+      "pareigos": "Fizikos laboratorija",
+      "vardas_pavarde": "Z. Meškauskas",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "56",
+      "pareigos": "Biblioteka",
+      "vardas_pavarde": "R. Vilutienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "57",
+      "pareigos": "Tikybos kabinetas",
+      "vardas_pavarde": "A. Juškevičienė, D. Černiuvienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "58",
+      "pareigos": "Lietuvių k. kabinetas",
+      "vardas_pavarde": "V. Karaliūnienė",
+      "del_ko_kreiptis": [""]
+    },{
+      "id": "59",
+      "pareigos": "Lietuvių k. kabinetas",
+      "vardas_pavarde": "R. Saniukienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "60",
+      "pareigos": "Lietuvių k. kabinetas",
+      "vardas_pavarde": "J. Dirsienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "61",
+      "pareigos": "Lietuvių k. kabinetas",
+      "vardas_pavarde": "R. Konopienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "62",
+      "pareigos": "Psichologas",
+      "vardas_pavarde": "Ona Viduolienė",
+      "del_ko_kreiptis": ["tai žmogus, su kuriuo gali pasikalbėti, kai jautiesi blogai, susiduri su sunkumais ar tiesiog nori pasitarti. Jis padeda mokiniams geriau suprasti save, išspręsti problemas ir jaustis saugiau gimnazijoje.",
+      "Kreipkis į socialinį pedagogą, jei:",
+      "• Jauti nerimą, liūdesį, vienišumą ar esi prislėgtas.",
+      "• Patiri patyčias, spaudimą ar nesutari su draugais ar klasės draugais.",
+      "• Sunku sutarti su tėvais, mokytojais ar kitais žmonėmis.",
+      "• Sunkiai sekasi mokytis, susikaupti ar motyvuoti save.",
+      "• Jauti, kad pasikeitė elgesys – greitai susierzini, sunku nusiraminti.",
+      "• Nori išmokti geriau pažinti save, valdyti emocijas, spręsti konfliktus.",
+      "• Tiesiog reikia išsikalbėti – psichologas visada išklausys."]
+    },
+    {
+      "id": "63",
+      "pareigos": "Gamtos mokslų laboratorija",
+      "vardas_pavarde": "L. Vipienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "64",
+      "pareigos": "Biologijos kabinetas",
+      "vardas_pavarde": "L. Vipienė, A. Vilkauskienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "65",
+      "pareigos": "Techninė patalpa",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "66",
+      "pareigos": "Rusų k. kabinetas",
+      "vardas_pavarde": "V. Misiūnienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "67",
+      "pareigos": "Vokiečių k. kabinetas",
+      "vardas_pavarde": "A. Milaknienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "68",
+      "pareigos": "Biologijos kabinetas",
+      "vardas_pavarde": "D. Spundzevičienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "69",
+      "pareigos": "Socialiniai pedagogai",
+      "vardas_pavarde": "Jurgita Adomavičienė, Nijolė Pranskūnaitė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "70",
+      "pareigos": "Erdvė pauzei",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "71",
+      "pareigos": "LŠMPS Rokiškio raj. susivienijimas",
+      "vardas_pavarde": "E. Gaigalas",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "72",
+      "pareigos": "Istorijos kabinetas",
+      "vardas_pavarde": "E. Gaigalas",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "73",
+      "pareigos": "Ekonomikos kabinetas",
+      "vardas_pavarde": "R. Petkevičienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "74",
+      "pareigos": "Istorijos kabinetas",
+      "vardas_pavarde": "D. Golubeckienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "75",
+      "pareigos": "Geografijos kabinetas",
+      "vardas_pavarde": "R. Stanišauskienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "76",
+      "pareigos": "Chemijos kabinetas",
+      "vardas_pavarde": "Rimutė Valentienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "77",
+      "pareigos": "Chemijos paruošiamasis ",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "78",
+      "pareigos": "Chemijos laboratorija",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "79",
+      "pareigos": "Chemijos laboratorija",
+      "vardas_pavarde": "D. Ramanauskienė / R. Valentienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "80",
+      "pareigos": "Chemijos kabinetas",
+      "vardas_pavarde": "D. Ramanauskienė",
+      "del_ko_kreiptis": [""]
+    },
+    {
+      "id": "17",
+      "pareigos": "Gimnazijos psichologas",
+      "vardas_pavarde": "",
+      "del_ko_kreiptis": ["tai žmogus, su kuriuo gali pasikalbėti, kai jautiesi blogai, susiduri su sunkumais ar tiesiog nori pasitarti. Jis padeda mokiniams geriau suprasti save, išspręsti problemas ir jaustis saugiau gimnazijoje.",
+      "Kreipkis į socialinį pedagogą, jei:",
+      "• Jauti nerimą, liūdesį, vienišumą ar esi prislėgtas.",
+      "• Patiri patyčias, spaudimą ar nesutari su draugais ar klasės draugais.",
+      "• Sunku sutarti su tėvais, mokytojais ar kitais žmonėmis.",
+      "• Sunkiai sekasi mokytis, susikaupti ar motyvuoti save.",
+      "• Jauti, kad pasikeitė elgesys – greitai susierzini, sunku nusiraminti.",
+      "• Nori išmokti geriau pažinti save, valdyti emocijas, spręsti konfliktus.",
+      "• Tiesiog reikia išsikalbėti – psichologas visada išklausys."]
+    },
+    {
+      "id": "15",
+      "pareigos": "Mokinių seimas",
+      "vardas_pavarde": "Mokinių seimo pirmininkas",
+      "del_ko_kreiptis": ["Mokinių seimas – tai visų mokinių atstovai, kurie rūpinasi, kad mokiniai būtų išgirsti, galėtų išsakyti savo nuomonę, teiktų idėjas, dalyvautų kuriant draugišką ir įdomią gimnaziją.",
+      "Kreipkis į mokinių seimą, jeigu:",
+      "• Turi pasiūlymą, kaip pagerinti gyvenimą gimnazijoje – veiklas, tvarką, renginius ar aplinką.",
+      "• Nori, kad mokiniai būtų labiau išgirsti – turi idėjų dėl pokyčių.",
+      "• Jauti, kad kai kurios taisyklės neteisingos, ir nori padėti rasti geresnius sprendimus.",
+      "• Nori prisidėti prie renginių organizavimo, iniciatyvų ar akcijų.",
+      "• Patyrei ar pastebėjai neteisybę, patyčias, diskriminaciją – mokinių seimas gali padėti kreiptis toliau ar iškelti problemą.",
+      "• Nori sužinoti, kas atstovauja tavo klasei mokinių seime.",
+      "• Pats nori tapti aktyvus, dalyvauti ar kandidatuoti į mokinių seimą.",
+      "Ką veikia mokinių seimas?",
+      "• Rengia gimnazijos renginius, konkursus, akcijas, temines dienas.",
+      "• Yra mokinių atstovai gimnazijos susirinkimuose, tarybose.",
+      "• Palaiko ryšį tarp mokinių ir gimnazijos vadovybės.",
+      "• Skatina mokinių įsitraukimą, savarankiškumą, lyderystę.",
+      "• Padeda kurti draugišką, saugią ir įdomią gimnazijos bendruomenę."]
+    }
+  ]
+}

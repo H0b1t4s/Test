@@ -1,0 +1,1230 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;  /* centras horizontaliai */
+    align-items: center;      /* centras vertikaliai */
+    background-color: #f8f8f8;
+}
+    
+.mokyklos-planas-container {
+    position: relative;      /* kad absolute vaikai veiktų pagal planą */
+    width: 730.3px;
+    height: 561.1px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+.mokyklos-planas-wraper{
+   display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.mokyklos-planas{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.antras-aukstas,
+.trecias-aukstas {
+    display: none;
+}
+
+
+
+
+/*SARASAS*/
+.saraso-container{
+    width: 300px;
+    height: 561.1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #cecdcc;
+    position: relative;
+}
+
+.saraso-container h2 {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+.search-item {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.search-input {
+    width: 254px;
+    padding: 8px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-left: 15px;
+}
+
+.search-list {
+    width: 298px;
+    height: 470px;
+    overflow-y: auto;
+    background: #cecdcc;
+    border-top: 0.5px solid #aaaaaa;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 10px;
+}
+
+.search-item {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.search-item:hover {
+    background: #e6e6e6;
+}
+
+.vardas{
+    color: #3b3b3b;
+    font-size: 15px;
+}
+
+.search-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Scroll bar fonas */
+.search-list::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+/* Scroll rankena */
+.search-list::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Hover efektas */
+.search-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
+.info-container {
+    width: 400px;
+    height: 561.1px;
+    background: #c9c9c9;
+    border-radius: 5px;
+    display: flex;
+    z-index: 100;
+    top: 0;
+    font-size: 14px;
+}
+
+.info{
+    margin: 10px 5px 20px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.SS, .SSMPK, .SSBPK, .SSPK, .V, .foje, .maisto-pamoka, .aktu-sale,
+  .tuoletasM1,   .tuoletasM2, .tuoletasMN1, .tuoletasN3,   .tuoletasV4,   .tuoletasV5, .tuoletasVN5,   .tuoletasM6,   .tuoletas7,   .tuoletasV8,   .tuoletas9,  .tuoletasM10, .tuoletasMN10, .tuoletasM11, .tuoletasV12,
+ .kabinetas1,  .kabinetas2,  .kabinetas3,  .kabinetas4,  .kabinetas5,  .kabinetas6,  .kabinetas7,  .kabinetas8,  .kabinetas9, .kabinetas10,
+.kabinetas11, .kabinetas12, .kabinetas13, .kabinetas14, .kabinetas15, .kabinetas16, .kabinetas17, .kabinetas18, .kabinetas19, .kabinetas20,
+.kabinetas21, .kabinetas22, .kabinetas23, .kabinetas24, .kabinetas25, .kabinetas26, .kabinetas27, .kabinetas28, .kabinetas29, .kabinetas30, 
+.kabinetas31, .kabinetas32, .kabinetas33, .kabinetas34, .kabinetas35, .kabinetas36, .kabinetas37, .kabinetas38, .kabinetas39, .kabinetas40, 
+.kabinetas41, .kabinetas42, .kabinetas43, .kabinetas44, .kabinetas45, .kabinetas46, .kabinetas47, .kabinetas48, .kabinetas49, .kabinetas50, 
+.kabinetas51, .kabinetas52, .kabinetas53, .kabinetas54, .kabinetas55, .kabinetas56, .kabinetas57, .kabinetas58, .kabinetas59, .kabinetas60,
+.kabinetas61, .kabinetas62, .kabinetas63, .kabinetas64, .kabinetas65, .kabinetas66, .kabinetas67, .kabinetas68, .kabinetas69, .kabinetas70,
+.kabinetas71, .kabinetas72, .kabinetas73, .kabinetas74, .kabinetas75, .kabinetas76, .kabinetas28a, .kabinetas29a, .kabinetas30a, .kabinetas51a{
+    background-color: rgb(226, 196, 176);
+    position: absolute;
+    transition: ease-in 0.2s;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+.SS:hover, .SSMPK:hover, .SSBPK:hover, .SSPK:hover, .V:hover, .foje:hover, .maisto-pamoka:hover, .aktu-sale:hover,
+  .tuoletas1:hover,   .tuoletas2:hover,   .tuoletas3:hover,   .tuoletas4:hover,   .tuoletas5:hover,   .tuoletas6:hover,   .tuoletas7:hover,   .tuoletas8:hover,   .tuoletas9:hover,  .tuoletas10:hover, .tuoletas11:hover, .tuoletas12:hover,
+ .kabinetas1:hover,  .kabinetas2:hover,  .kabinetas3:hover,  .kabinetas4:hover,  .kabinetas5:hover,  .kabinetas6:hover,  .kabinetas7:hover,  .kabinetas8:hover,  .kabinetas9:hover, .kabinetas10:hover,
+.kabinetas11:hover, .kabinetas12:hover, .kabinetas13:hover, .kabinetas14:hover, .kabinetas15:hover, .kabinetas16:hover, .kabinetas17:hover, .kabinetas18:hover, .kabinetas19:hover, .kabinetas20:hover,
+.kabinetas21:hover, .kabinetas22:hover, .kabinetas23:hover, .kabinetas24:hover, .kabinetas25:hover, .kabinetas26:hover, .kabinetas27:hover, .kabinetas28:hover, .kabinetas29:hover, .kabinetas30:hover, 
+.kabinetas31:hover, .kabinetas32:hover, .kabinetas33:hover, .kabinetas34:hover, .kabinetas35:hover, .kabinetas36:hover, .kabinetas37:hover, .kabinetas38:hover, .kabinetas39:hover, .kabinetas40:hover, 
+.kabinetas41:hover, .kabinetas42:hover, .kabinetas43:hover, .kabinetas44:hover, .kabinetas45:hover, .kabinetas46:hover, .kabinetas47:hover, .kabinetas48:hover, .kabinetas49:hover, .kabinetas50:hover, 
+.kabinetas51:hover, .kabinetas52:hover, .kabinetas53:hover, .kabinetas54:hover, .kabinetas55:hover, .kabinetas56:hover, .kabinetas57:hover, .kabinetas58:hover, .kabinetas59:hover, .kabinetas60:hover,
+.kabinetas61:hover, .kabinetas62:hover, .kabinetas63:hover, .kabinetas64:hover, .kabinetas65:hover, .kabinetas66:hover, .kabinetas67:hover, .kabinetas68:hover, .kabinetas69:hover, .kabinetas70:hover,
+.kabinetas71:hover, .kabinetas72:hover, .kabinetas73:hover, .kabinetas74:hover, .kabinetas75:hover, .kabinetas76:hover, .kabinetas28a:hover, .kabinetas29a:hover, .kabinetas51a:hover{
+    background-color: rgb(192, 168, 152);
+    transition: ease-in 0.2s;
+}
+
+.tuoletasM1,   .tuoletasM2, .tuoletasMN1, .tuoletasN3,   .tuoletasV4,   .tuoletasV5, .tuoletasVN5,   .tuoletasM6,   .tuoletas7,   .tuoletasV8,   .tuoletas9,  .tuoletasM10, .tuoletasMN10, .tuoletasM11, .tuoletasV12{
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.sienos{
+    background-color: rgb(255, 242, 240);
+    width: 730.3px;
+    height: 561.1px;
+    clip-path: polygon(
+        0.0px 266.2px,
+        0.0px 561.1px,
+        394.4px 561.1px,
+        394.4px 371.6px,
+        434.8px 371.6px,
+        434.8px 383.0px,
+        466.8px 383.0px,
+        466.8px 371.5px,
+        583.8px 371.5px,
+        583.8px 347.9px,
+        625.8px 347.9px,
+        625.8px 371.5px,
+        730.3px 371.5px,
+        730.3px 77.9px,
+        624.5px 77.9px,
+        624.5px 289.7px,
+        486.3px 289.7px,
+        486.3px 277.5px,
+        440.5px 277.5px,
+        440.5px 23.1px,
+        343.5px 23.1px,
+        343.5px 0.0px,
+        190.5px 0.0px,
+        190.5px 363.2px,
+        288.8px 363.2px,
+        288.8px 479.3px,
+        106.2px 479.3px,
+        106.2px 266.2px
+    );
+
+    z-index: 0;
+}
+
+.SS{
+    width: 730.3px;
+    height: 561.1px;
+    z-index: 1;
+    clip-path: polygon(
+    195.7px 4.3px,
+    195.7px 289.7px,
+    338.6px 289.7px,
+    338.6px 98.5px,
+    362.9px 98.5px,
+    362.9px 51.5px,
+    338.6px 51.5px,
+    338.6px 4.3px
+    
+);
+
+position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+
+.SS span{
+    margin-top: -10px;
+    margin-left: -150px;
+}
+
+.SSMPK{
+    width: 730.3px;
+    height: 561.1px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    clip-path: polygon(
+    195.7px 294.6px,
+    195.7px 325.6px,
+    225.5px 325.6px,
+    225.5px 330.5px,
+    277.2px 330.5px,
+    277.2px 294.6px
+);
+
+}
+
+.SSMPK span{
+    margin-top: 60px;
+    margin-left: -250px;
+}
+
+.SSBPK{
+    width: 730.3px;
+    height: 561.1px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    clip-path: polygon(
+        195.7px 327.4px,
+        195.7px 359.3px,
+        288.8px 359.3px,
+        288.8px 324.6px,
+        279.0px 324.6px,
+        279.0px 331.8px,
+        223.9px 331.8px,
+        223.9px 327.4px
+    );
+
+}
+
+.SSBPK span{
+    margin-top: 130px;
+    margin-left: -250px;
+}
+
+.SSPK{
+    width: 730.3px;
+    height: 561.1px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    clip-path: polygon(
+        278.7px 294.6px,
+        278.7px 323.2px,
+        288.8px 323.2px,
+        288.8px 317.6px,
+        316.3px 317.6px,
+        316.3px 293.2px,
+        298.1px 293.2px,
+        298.1px 294.6px
+    );
+
+}
+
+.SSPK span{
+    margin-top: 50px;
+    margin-left: -140px;
+}
+
+.aktu-sale{
+    width: 730.3px;
+    height: 561.1px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    clip-path: polygon(
+        341.2px 246.6px,
+        341.2px 27.6px,
+        436.1px 27.6px,
+        436.1px 242.4px,
+        362.8px 242.4px,
+        362.8px 246.6px
+        );
+}
+
+.aktu-sale span{
+    margin-top: -100px;
+    margin-left: 5px;
+}
+
+
+
+.V{
+    width: 730.3px;
+    height: 561.1px;
+    z-index: 10;
+    clip-path: polygon(
+        342.0px 289.5px,
+        358.5px 289.5px,
+        358.5px 293.3px,
+        436.3px 293.3px,
+        436.3px 27.5px,
+        399.7px 27.5px,
+        399.7px 51.6px,
+        364.5px 51.6px,
+        364.5px 99.8px,
+        342.0px 99.8px
+    );
+
+}
+
+.V span{
+    margin-left: 20px;
+
+}
+
+.budetojas{
+    width: 40px;
+    height: 20px;
+    background-color: #888;
+    margin-top: 350px;
+    margin-left: 393px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    position: absolute;
+}
+
+.budetojas span{
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.foje{
+    width: 48.2px;
+    height: 116.3px;
+    margin-bottom: 78.2px;
+    margin-left: 293.3px;
+}
+
+.maisto-pamoka{
+    width: 96.4px;
+    height: 47.4px;
+    margin-bottom: 4.3px;
+    margin-left: 4.3px;
+}
+
+.tuoletasM1{
+    width: 49px;
+    height: 28.6px;
+    margin-bottom: 71.2px;
+    margin-left: 52.4px;
+}
+
+.tuoletasM2{
+    width: 32.7px;
+    height: 22.4px;
+    margin-bottom: 407.5px;
+    margin-left: 629px;
+}
+
+.tuoletasMN1{
+    width: 17.6px;
+    height: 17.6px;
+    margin-bottom: 70.2px;
+    margin-left: 51.4px;
+    border: 1.8px solid rgb(255, 242, 240);
+
+}
+
+.tuoletasN3{
+    width: 15.6px;
+    height: 21.1px;
+    margin-bottom: 385.2px;
+    margin-left: 629px;
+}
+
+.tuoletasV4{
+    width: 15.4px;
+    height: 20.8px;
+    margin-bottom: 385.2px;
+    margin-left: 646.1px;
+}
+
+.tuoletasV5{
+    width: 48.5px;
+    height: 28.6px;
+    margin-bottom: 71.2px;
+    margin-left: 53px;
+}
+
+.tuoletasVN5{
+    width: 17.6px;
+    height: 17.6px;
+    margin-bottom: 70.2px;
+    margin-left: 51.4px;
+    border: 1.8px solid rgb(255, 242, 240);
+}
+
+.tuoletasM6{
+    width: 32.7px;
+    height: 22.4px;
+    margin-bottom: 407.5px;
+    margin-left: 628.9px;
+}
+
+.tuoletas7{
+    width: 13.2px;
+    height: 21.1px;
+    margin-bottom: 385.2px;
+    margin-left: 628.9px;
+}
+
+.tuoletasV8{
+    width: 17.5px;
+    height: 21.1px;
+    margin-bottom: 385.2px;
+    margin-left: 643.7px;
+}
+
+.tuoletas9{
+    width: 45.5px;
+    height: 24.4px;
+    margin-bottom: 242.5px;
+    margin-left: 293.2px;
+}
+
+.tuoletasM10{
+    width: 48.7px;
+    height: 28.6px;
+    margin-bottom: 71.2px;
+    margin-left: 53.1px;
+}
+
+.tuoletasMN10{
+    width: 17.6px;
+    height: 17.6px;
+    margin-bottom: 70.5px;
+    margin-left: 51.7px;
+    border: 1.8px solid rgb(255, 242, 240);
+}
+
+.tuoletasM11{
+    width: 32.2px;
+    height: 21.9px;
+    margin-bottom: 408.1px;
+    margin-left: 629.4px;
+}
+
+.tuoletasV12{
+    width: 32.2px;
+    height: 21px;
+    margin-bottom: 386.5px;
+    margin-left: 629.4px;
+}
+
+.kabinetas26{
+    width: 48.9px;
+    height: 45.1px;
+    margin-bottom: 101.1px;
+    margin-left: 52.4px;
+}
+
+.kabinetas25{
+    width: 38.5px;
+    height: 23.1px;
+    margin-bottom: 147.9px;
+    margin-left: 62.7px;
+}
+
+.kabinetas24{
+    width: 38.5px;
+    height: 22.1px;
+    margin-bottom: 171.9px;
+    margin-left: 62.7px;
+}
+
+.kabinetas23{
+    width: 47.9px;
+    height: 95px;
+    margin-bottom: 195.6px;
+    margin-left: 53.2px;
+}
+
+.kabinetas22{
+    width: 46.4px;
+    height: 95px;
+    margin-bottom: 195.6px;
+    margin-left: 4.3px;
+}
+
+.kabinetas21{
+    width: 32.8px;
+    height: 45.8px;
+    margin-bottom: 148.1px;
+    margin-left: 4.3px;
+}
+
+.kabinetas20{
+    width: 32.8px;
+    height: 45.8px;
+    margin-bottom: 100.7px;
+    margin-left: 4.3px;
+}
+
+.kabinetas19{
+    width: 32.8px;
+    height: 44.6px;
+    margin-left: 4.3px;
+    margin-bottom: 54.3px;
+}
+
+.kabinetas18{
+    width: 70.1px;
+    height: 48.5px;
+    margin-bottom: 4.3px;
+    margin-left: 152.8px;
+}
+
+.kabinetas17{
+    width: 68.7px;
+    height: 48.5px;
+    margin-bottom: 4.3px;
+    margin-left: 224.7px;
+}
+
+.kabinetas16{
+    width: 94.8px;
+    height: 48.9px;
+    margin-bottom: 4.3px;
+    margin-left: 295.2px;
+}
+
+.kabinetas15{
+    width: 30.7px;
+    height: 21.6px;
+    margin-bottom: 54.4px;
+    margin-left: 359.2px;
+}
+
+.kabinetas14{
+    width: 30.7px;
+    height: 22.3px;
+    margin-bottom: 77.2px;
+    margin-left: 359.2px;
+}
+
+.kabinetas13{
+    width: 30.7px;
+    height: 45.7px;
+    margin-bottom: 100.6px;
+    margin-left: 359.2px;
+}
+
+.kabinetas12{
+    width: 30.7px;
+    height: 46.7px;
+    margin-bottom: 147.5px;
+    margin-left: 359.2px;
+}
+
+.kabinetas11{
+    width: 22.2px;
+    height: 48.5px;
+    margin-bottom: 194.3px;
+    margin-left: 484.6px;
+}
+
+.kabinetas10{
+    width: 22.2px;
+    height: 48.5px;
+    margin-bottom: 194.3px;
+    margin-left: 508.2px;
+}
+
+.kabinetas9{
+    width: 11.7px;
+    height: 22.4px;
+    margin-bottom: 220.5px;
+    margin-left: 531.8px;
+}
+
+.kabinetas8{
+    width: 22px;
+    height: 25.3px;
+    margin-bottom: 194.3px;
+    margin-left: 531.8px;
+}
+
+.kabinetas7{
+    width: 24.3px;
+    height: 48.5px;
+    margin-bottom: 194.3px;
+    margin-left: 555.2px;
+}
+
+.kabinetas6{
+    right: 0;
+    width: 22.8px;
+    height: 47px;
+    margin-bottom: 194.1px;
+    margin-right: 76.8px;
+}
+
+.kabinetas5{
+    right: 0;
+    width: 70.6px;
+    height: 47px;
+    margin-bottom: 194.1px;
+    margin-right: 4.3px;
+}
+
+.kabinetas4{
+    right: 0;
+    width: 48.3px;
+    height: 68.4px;
+    margin-bottom: 243.8px;
+    margin-right: 4.3px;
+}
+
+.kabinetas3{
+    right: 0;
+    width: 48.3px;
+    height: 68.4px;
+    margin-bottom: 314.5px;
+    margin-right: 4.3px;
+}
+
+.kabinetas2{
+    right: 0;
+    width: 48.3px;
+    height: 44.8px;
+    margin-bottom: 385.3px;
+    margin-right: 4.3px;
+}
+
+.kabinetas1{
+    right: 0;
+    width: 97.2px;
+    height: 46px;
+    margin-bottom: 432.2px;
+    margin-right: 4.3px;
+}
+
+
+
+/*Antro auksto*/
+.sienos1{
+    width: 730.3px;
+    height: 561.1px;
+    background-color: rgb(255, 242, 240);
+    clip-path: polygon(
+        0px 266.2px,
+        0px 561.1px,
+        394.4px 561.1px,
+        394.4px 371.6px,
+        434.8px 371.6px,
+        434.8px 383px,
+        466.8px 383px,
+        466.8px 371.5px,
+        583.8px 371.5px,
+        583.8px 347.9px,
+        625.8px 347.9px,
+        625.8px 371.5px,
+        730.3px 371.5px,
+        730.3px 77.9px,
+        624.5px 77.9px,
+        624.5px 289.7px,
+        486.3px 289.7px,
+        486.3px 277.5px,
+        440.5px 277.5px,
+        440.5px 23.1px,
+        334.8px 23.1px,
+        334.8px 289.4px,
+        288.8px 289.4px,
+        288.8px 479.3px,
+        106.2px 479.3px,
+        106.2px 266.2px
+    );
+}
+
+
+.kabinetas27{
+    left: 0;
+    width: 48.5px;
+    height: 68.7px;
+    margin-bottom: 101.4px;
+    margin-left: 53px;
+}
+
+.kabinetas28{
+    width: 48.5px;
+    height: 94.1px;
+    margin-bottom: 196.1px;
+    margin-left: 53px;
+}
+
+.kabinetas28a{
+    width: 38.5px;
+    height: 21.8px;
+    margin-bottom: 171.6px;
+    margin-left: 63.1px;
+}
+
+.kabinetas29{
+    width: 47.1px;
+    height: 94.1px;
+    margin-bottom: 196.1px;
+    margin-left: 4.3px;
+
+}
+
+.kabinetas29a{
+    width: 32.3px;
+    height: 116px;
+    margin-bottom: 77px;
+    margin-left: 4.3px;
+}
+
+.kabinetas30{
+    width: 70.6px;
+    height: 47.2px;
+    margin-bottom: 4.3px;
+    margin-left: 30.3px;
+}
+
+.kabinetas30a{
+    width: 24.1px;
+    height: 47.2px;
+    margin-bottom: 4.3px;
+    margin-left: 4.3px;
+}
+
+.kabinetas31{
+    width: 70.1px;
+    height: 48.4px;
+    margin-bottom: 4.3px;
+    margin-left: 152.9px;
+}
+
+
+.kabinetas32{
+    width: 68.6px;
+    height: 48.4px;
+    margin-bottom: 4.3px;
+    margin-left: 224.7px;
+}
+
+.kabinetas33{
+    width: 94.1px;
+    height: 48.4px;
+    margin-bottom: 4.3px;
+    margin-left: 295.6px;
+}
+
+.kabinetas34{
+    width: 29.4px;
+    height: 21.4px;
+    margin-bottom: 54.4px;
+    margin-left: 360.8px;
+}
+
+.kabinetas35{
+    width: 29.4px;
+    height: 22.8px;
+    margin-bottom: 77px;
+    margin-left: 360.8px;
+}
+
+.kabinetas36{
+    width: 29.4px;
+    height: 93.2px;
+    margin-bottom: 101.3px;
+    margin-left: 360.8px;
+}
+
+.kabinetas37{
+    width: 92.2px;
+    height: 48.1px;
+    margin-bottom: 194px;
+    margin-left: 390.4px;
+}
+
+.kabinetas38{
+    width: 93.9px;
+    height: 48.1px;
+    margin-bottom: 194px;
+    margin-left: 485.5px;
+}
+
+.kabinetas39{
+    width: 30.8px;
+    height: 24.5px;
+    margin-bottom: 242.3px;
+    margin-left: 580.6px;
+}
+
+.kabinetas40{
+    width: 23.2px;
+    height: 47px;
+    margin-bottom: 193.9px;
+    margin-left: 630.3px;
+}
+
+.kabinetas41{
+    width: 22px;
+    height: 47px;
+    margin-bottom: 193.9px;
+    margin-left: 655.2px;
+}
+
+.kabinetas42{
+    width: 46.4px;
+    height: 47px;
+    margin-bottom: 193.9px;
+    margin-left: 678.9px;
+}
+
+.kabinetas43{
+    width: 48.4px;
+    height: 68.5px;
+    margin-bottom: 243.7px;
+    margin-left: 677.3px;
+}
+
+.kabinetas44{
+    width: 48.4px;
+    height: 68.3px;
+    margin-bottom: 313.8px;
+    margin-left: 677.3px;
+}
+
+.kabinetas45{
+    width: 48.4px;
+    height: 68.8px;
+    margin-bottom: 383.5px;
+    margin-left: 677.3px;
+}
+
+.kabinetas46{
+    width: 730.3px;
+    height: 561.1px;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    overflow: visible;
+    clip-path: polygon(
+        628.9px 128.8px,
+        628.9px 82.8px,
+        726px 82.8px,
+        726px 106.3px,
+        675.7px 106.3px,
+        675.7px 128.8px
+    );
+}
+.kabinetas46 span{   
+    margin-top: 100px;
+    margin-right: 60px;
+}
+
+.kabinetas47{
+    width: 71.6px;
+    height: 50.6px;
+    margin-bottom: 266.1px;
+    margin-left: 364.4px;
+}
+
+.kabinetas48{
+    width: 48.4px;
+    height: 46.7px;
+    margin-bottom: 148.8px;
+    margin-left: 293.2px;
+}
+
+.kabinetas49{
+    width: 48.4px;
+    height: 70px;
+    margin-bottom: 76.8px;
+    margin-left: 293.2px;
+}
+
+.kabinetas50{
+    width: 48.2px;
+    height: 69.2px;
+    margin-bottom: 101.5px;
+    margin-left: 53.4px;
+}
+
+.kabinetas51{
+    width: 47.8px;
+    height: 94px;
+    margin-bottom: 196px;
+    margin-left: 53.4px;
+}
+
+.kabinetas51a{
+    width: 38.1px;
+    height: 22.5px;
+    margin-bottom: 172.5px;
+    margin-left: 63.5px;
+}
+
+.kabinetas52{
+    width: 47.2px;
+    height: 94.4px;
+    margin-bottom: 196.1px;
+    margin-left: 4.3px;
+}
+
+.kabinetas53{
+    width: 31.7px;
+    height: 45px;
+    margin-bottom: 149px;
+    margin-left: 4.3px;
+}
+
+.kabinetas54{
+    width: 31.7px;
+    height: 47px;
+    margin-bottom: 100.3px;
+    margin-left: 4.3px;
+}
+
+.kabinetas55{
+    width: 31.7px;
+    height: 44.3px;
+    margin-bottom: 54.4px;
+    margin-left: 4.3px;
+}
+
+.kabinetas56{
+    width: 96.6px;
+    height: 47.3px;
+    margin-bottom: 4.3px;
+    margin-left: 4.3px;
+}
+
+.kabinetas57{
+    width: 70.8px;
+    height: 48.4px;
+    margin-bottom: 4.3px;
+    margin-left: 152.6px;
+}
+
+.kabinetas58{
+    width: 68.9px;
+    height: 48.9px;
+    margin-bottom: 4.3px;
+    margin-left: 224.7px;
+}
+
+.kabinetas59{
+    width: 94.5px;
+    height: 49.1px;
+    margin-bottom: 4.3px;
+    margin-left: 295.3px;
+}
+
+.kabinetas60{
+    width: 30.5px;
+    height: 21.2px;
+    margin-bottom: 54.4px;
+    margin-left: 360px;
+}
+
+.kabinetas61{
+    width: 30.5px;
+    height: 23.2px;
+    margin-bottom: 77px;
+    margin-left: 360px;
+}
+
+.kabinetas62{
+    width: 30.5px;
+    height: 44.4px;
+    margin-bottom: 101.4px;
+    margin-left: 360px;
+}
+
+.kabinetas63{
+    width: 30.5px;
+    height: 47.7px;
+    margin-bottom: 147px;
+    margin-left: 360px;
+}
+
+.kabinetas64{
+    width: 29.5px;
+    height: 16px;
+    margin-bottom: 195.9px;
+    margin-left: 359.1px;
+}
+
+.kabinetas65{
+    width: 29.5px;
+    height: 28.8px;
+    margin-bottom: 213.6px;
+    margin-left: 359.1px;
+}
+
+.kabinetas66{
+    width: 93px;
+    height: 48.5px;
+    margin-bottom: 194px;
+    margin-left: 390.5px;
+}
+
+.kabinetas67{
+    width: 94.4px;
+    height: 48.5px;
+    margin-bottom: 193.9px;
+    margin-left: 485.2px;
+}
+
+.kabinetas68{
+    width: 23.9px;
+    height: 47.1px;
+    margin-bottom: 193.9px;
+    margin-left: 630px;
+}
+
+.kabinetas69{
+    width: 70.4px;
+    height: 47.1px;
+    margin-bottom: 193.9px;
+    margin-left: 655.6px;
+}
+
+.kabinetas70{
+    width: 48.4px;
+    height: 68.8px;
+    margin-bottom: 243.4px;
+    margin-left: 677.9px;
+}
+
+.kabinetas71{
+    width: 48.4px;
+    height: 68.8px;
+    margin-bottom: 313.5px;
+    margin-left: 677.9px;
+}
+
+.kabinetas72{
+    width: 48.4px;
+    height: 69.2px;
+    margin-bottom: 384.1px;
+    margin-left: 677.9px;
+}
+
+.kabinetas73{
+    width: 730.3px;
+    height: 561.1px;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    overflow: visible;
+    clip-path: polygon(
+        628.9px 128.8px,
+        628.9px 82.8px,
+        726px 82.8px,
+        726px 106.3px,
+        675.7px 106.3px,
+        675.7px 128.8px
+    );
+}
+
+.kabinetas73 span{   
+    margin-top: 100px;
+    margin-right: 60px;
+}
+
+.kabinetas74{
+    width: 47.1px;
+    height: 24.7px;
+    margin-bottom: 242.4px;
+    margin-left: 293.3px;
+}
+
+.kabinetas75{
+    width: 47.1px;
+    height: 48.6px;
+    margin-bottom: 148px;
+    margin-left: 293.3px;
+}
+
+.kabinetas76{
+    width: 47.1px;
+    height: 69.7px;
+    margin-bottom: 77px;
+    margin-left: 293.3px;
+}
+
+
+
+.sienos2{
+    width: 730.3px;
+    height: 561.1px;
+    background-color: rgb(255, 242, 240);
+    clip-path: polygon(
+        0px 266.2px,
+        0px 561.1px,
+        394.4px 561.1px,
+        394.4px 371.6px,
+        434.8px 371.6px,
+        466.8px 371.5px,
+        583.8px 371.5px,
+        583.8px 347.9px,
+        625.8px 347.9px,
+        625.8px 371.5px,
+        730.3px 371.5px,
+        730.3px 77.9px,
+        624.5px 77.9px,
+        624.5px 289.7px,
+        334.8px 289.4px,
+        288.8px 289.4px,
+        288.8px 479.3px,
+        106.2px 479.3px,
+        106.2px 266.2px
+    );
+}
+
+
+@media (max-width: 900px) {
+    body{
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .mokyklos-planas-wraper{
+        width: 100%;
+    }
+
+    .saraso-container{
+        display: none;
+    }
+
+    .info-container{
+        display: none;
+    }
+}
