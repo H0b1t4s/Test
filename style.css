@@ -1342,7 +1342,7 @@ position: absolute;
     left: 0;
     width: 50vw;
     max-width: none;
-    height: 50vh;
+    max-height: 200px;
     background: #cecdcc;
     z-index: 9999;
     transform: translateX(-100%);
@@ -1424,6 +1424,7 @@ position: absolute;
     cursor: pointer;
     
 }
+
 
 
 
