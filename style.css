@@ -1415,22 +1415,7 @@ position: absolute;
 
 
 
-.mobile-zoom-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 10000;
-    background: #979797;
-    color: #fff;
-    font-size: 24px;
-    border: none;
-    border-radius: 6px;
-    width: 40px;
-    height: 40px;
-    margin-left: 5px;
-    cursor: pointer;
-    
-}
+
 
 
 
@@ -1552,3 +1537,4 @@ position: absolute;
     top: 0px;
     left: -15px;
 }
+
