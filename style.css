@@ -179,7 +179,14 @@ width: 730px; /* originalus planas */
 
 
 
+.kabinetas {
+    filter: none !important;
+}
 
+.active-kabinetas {
+    filter: drop-shadow(0 0 10px red) !important;
+    z-index: 9999;
+}
 
 
 
@@ -1342,7 +1349,7 @@ position: absolute;
     left: 0;
     width: 50vw;
     max-width: none;
-    max-height: 100px;
+    height: 50vh;
     background: #cecdcc;
     z-index: 9999;
     transform: translateX(-100%);
@@ -1432,3 +1439,116 @@ position: absolute;
 
 
 
+
+
+.lift-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(165, 165, 165);
+    margin-left: 361px;
+    height: 20px;
+    width: 15px;
+    z-index: 10;
+    margin-top: 346px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: #3b3b3b;
+}
+
+.lift-container span{
+    transform: scale(0.8);
+}
+
+.laiptai1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(165, 165, 165);
+    margin-left: 102px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: 50px;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: #3b3b3b;
+}
+
+.laiptai2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(165, 165, 165);
+    margin-left: 293px;
+    margin-bottom: 197px;
+    height: 44px;
+    width: 44px;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: #3b3b3b;
+}
+
+.laiptai3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(165, 165, 165);
+    margin-right: 105px;
+    margin-bottom: 215px;
+    height: 25px;
+    width: 41px;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: #3b3b3b;
+}
+
+.span{
+    width: 100%;
+    height: auto;
+    z-index: 10000;
+    position: relative;
+}
+
+.iejimas1, .iejimas2{
+    position: absolute;
+}
+
+.iejimas1{
+    margin-top: 380px;
+    margin-left: 444px;
+}
+
+.iejimas1 span{
+    position: absolute;
+}
+
+.iejimas1 p{
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    left: -25px;
+}
+
+.iejimas2{
+    margin-top: 200px;
+    margin-left: 457px;
+}
+
+.iejimas2 span{
+    position: absolute;
+    top: 55px;
+}
+
+.iejimas2 p{
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: -15px;
+}
