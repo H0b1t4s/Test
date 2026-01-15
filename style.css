@@ -1402,20 +1402,91 @@ position: absolute;
     font-size: clamp(11px, 3.2vw, 12px);
   }
 
-  /* Info paslepiam telefone */
-  .info-container {
-    display: none;
-  }
+    .info-container {
+        width: 90%;             /* sumažintas plotis */
+        max-height: 300px;      /* maksimalus aukštis mobiliajame */
+        font-size: 12px;        /* mažesnis tekstas */
+        padding: 8px;
+        overflow-y: auto;       /* jei turinys didesnis, atsiranda scroll */
+        position: fixed;        /* kad info langas būtų virš viso plano */
+        top: 10%;               /* truputį žemiau ekrano viršaus */
+        left: 5%;               /* centras horizontaliai */
+        z-index: 2000;
+        background-color: #c9c9c9;
+        border-radius: 5px;
+    }
 
+    .info-container .info {
+        font-size: 12px;
+    }
+
+    .info-container .scroll {
+        max-height: 250px;      /* tekstui ribotas aukštis */
+        overflow-y: auto;
+    }
   .mokyklos-planas-container {
     width: 100%;
   }
 
+  
+
 }
 
+.mygtuku-container{
+    width: 730.3px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: -23px;
+   
+    justify-content: center;
+    align-items: center;
+}
 
+.auksto-mygtukai{
+    display: flex;
+    flex: 0 0 100%;
+}
 
+.auksto-mygtukai button{
+    width: 100%;
+    color: black;
+    background-color: rgb(172, 172, 172);
+    border: none;
+    padding: 5px 0; 
+}
 
+.auksto-mygtukai button:hover{
+    width: 100%;
+    color: black;
+    background-color: rgb(196, 195, 194);
+    border: none;
+    padding: 5px 0; 
+    margin: 0.5px 0;
+    transition: 350ms;
+}
+
+.aukstas-btn.active {
+    font-weight: bold;
+    background: rgb(206, 205, 204);
+}
+
+.mobile-zoom-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10000;
+    background: #979797;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    cursor: pointer;
+    
+}
 
 
 
@@ -1537,4 +1608,3 @@ position: absolute;
     top: 0px;
     left: -15px;
 }
-
