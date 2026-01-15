@@ -25,10 +25,6 @@
             <input type="text" id="search" placeholder="Ieškoti žmogaus..." class="search-input" />
             <div id="search-list" class="search-list"></div>
         </div>
-        
-        <button id="zoomIn" class="mobile-zoom-btn offzoom">+</button>
-<button id="zoomOut" class="mobile-zoom-btn inzoom">-</button>
-        
         <div class="mokyklos-planas-container">
             <div class="mokyklos-planas">
 
@@ -171,12 +167,23 @@
                     <div class="kabinetas kabinetas51"  id="79"></div>
                     <div class="kabinetas kabinetas52"  id="80"></div>
                 </div>
+
+                <div class="mygtuku-container">
+        <div class="auksto-mygtukai">
+            <button data-aukstas="pirmas-aukstas" class="aukstas-btn">1 aukštas</button>
+            <button data-aukstas="antras-aukstas" class="aukstas-btn">2 aukštas</button>
+            <button data-aukstas="trecias-aukstas" class="aukstas-btn">3 aukštas</button>
+
+        </div>
+    </div>
             </div>
         </div>   
 
+        
         <div class="info-container" id="info">
             <div class="info">
-                <h2>Informacija</h2>
+                <h2>            <div class="speaker"><span class="material-symbols-outlined">brand_awareness</span></div>
+            <audio id="audioPlayer"></audio>Informacija</h2>
                 <div class="scroll">
                     <div>Kabineto Nr. : <span id="infoKabinetas"></span></div>
                     <div>Paskirtis: <span id="infoPareigos"></span></div>
@@ -185,8 +192,7 @@
                 </div>
             </div>
 
-            <div class="speaker"><span class="material-symbols-outlined">brand_awareness</span></div>
-            <audio id="audioPlayer"></audio>
+
 
 
         </div>
